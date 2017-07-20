@@ -40,7 +40,7 @@ print("Mean squared error: %.2f" %
 
 
 #Explained variance score: 1 is perfect prediction
-print("Variance Score: %.2f" % (regr.score(diabetes_X_test, diabetes_y_test)))
+print("Variance Score: %.2f" % (regr.score(diabetes_X_test, diabetes_y_test))) #what's this?
 
 #plot outputs
 pyplot.scatter(diabetes_X_test, diabetes_y_test, color='black')
